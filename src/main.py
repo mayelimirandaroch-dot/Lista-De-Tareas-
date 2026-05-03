@@ -4,7 +4,6 @@ from models.model import GestorTareas
 from views.view import View
 from controllers.controller import Controller
 
-
 # ── Ruta del archivo JSON (siempre en src/datos/) ──────────────────────
 ARCHIVO_ESTADO = os.path.join(os.path.dirname(__file__), "datos", "gestor_estado.json")
 
@@ -14,7 +13,7 @@ def main():
     os.makedirs(os.path.dirname(ARCHIVO_ESTADO), exist_ok=True)
 
     # ── Ventana raíz ──────────────────────────────────────────────────
-    root = tk.Tk
+    root = tk.Tk()
     root.title("Gestor de Tareas - Impresora Virtual")
     root.geometry("800x700")
     root.minsize(750, 480)
