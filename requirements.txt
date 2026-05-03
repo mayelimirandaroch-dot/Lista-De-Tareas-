@@ -1,0 +1,4 @@
+# --- Entorno ---
+python>=3.10
+# --- UI Framework (Standard Library) ---
+# Tkinter viene preinstalado en la mayoría de las distribuciones de Python.
